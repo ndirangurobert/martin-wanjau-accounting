@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 
 const phone = '0719327344';
-const email = 'martinwanjau516@gmail.com';
+const email = 'martinndirangu516@gmail.com';
 const wa = 'https://wa.me/254719327344';
 
 const services = [
