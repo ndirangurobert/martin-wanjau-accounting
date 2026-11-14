@@ -176,8 +176,9 @@ function App() {
           </div>
           <div
             className="hero-art"
-            aria-label="Abstract three dimensional financial growth illustration"
+            aria-label="Martin Wanjau Ndirangu professional portrait and financial illustration"
           >
+            <img className="hero-portrait" src="/martin-stairs.jpg" alt="Martin Wanjau Ndirangu in professional attire" />
             <div className="orbit orbit-one" />
             <div className="orbit orbit-two" />
             <div className="glass-panel panel-back">
@@ -283,6 +284,7 @@ function App() {
                   <br />& ACCOUNTABILITY
                 </span>
               </div>
+              <img className="about-portrait" src="/martin-lounge.jpg" alt="Martin Wanjau Ndirangu seated in a lounge" />
             </div>
             <div className="about-text">
               <p className="large-copy">
