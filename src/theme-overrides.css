@@ -1,0 +1,105 @@
+:root{
+  --navy:#493328;--navy2:#5b4335;--gold:#92704f;--muted:#756b64;--cream:#f7f6f3;
+}
+body,.site-shell{background:#f1efec;color:#40332b}
+.topline{background:#3d2b21;color:#eee9e3}
+.top-contact{color:#eee9e3}
+.header{background:#fff;color:#46362b;border-bottom-color:#e6e0da}
+.brand small{color:#887b70}
+.nav{color:#5b4b40}
+.nav-cta{border-color:#92704f;color:#795b40}
+.hero{background:linear-gradient(115deg,#f2f0ed 0%,#e6e1db 100%);color:#40332b}
+.hero-grid{opacity:.24;background-image:linear-gradient(#7a68551a 1px,transparent 1px),linear-gradient(90deg,#7a68551a 1px,transparent 1px)}
+h1,h2{color:#49372b}
+h1 em,h2 em{color:#8e6c4b}
+.eyebrow,.section-kicker{color:#8e6c4b}
+.hero-lead{color:#6f6259}
+.hero-proof{color:#66584f}
+.hero-proof svg{color:#8e6c4b}
+.text-link{color:#5d4c40}
+.orbit{border-color:#9b7c5b55}
+.orbit-two{border-color:#8a786633}
+.glass-panel{background:linear-gradient(140deg,#fff9,#ffffffad);border-color:#9a806a55;box-shadow:0 24px 55px #47362925;color:#49372b}
+.panel-head,.panel-foot{color:#75675d}
+.panel-foot strong{color:#876744}
+.chart-label{color:#49372b}
+.coin{color:#fffaf3;background:linear-gradient(145deg,#b18a60,#705036)}
+.floating-note{background:#fff;color:#46362b;box-shadow:0 15px 35px #47362925}
+.floating-note small{color:#82756b}
+.art-caption,.scroll-cue{color:#76685e}
+.scroll-cue span{background:#92704f}
+.intro-strip{background:#fff;color:#49372b}
+.strip-number{color:#92704f}
+.intro-strip small{color:#82776e}
+.about{background:#e9e6e1;color:#49372b}
+.about h2 em,.approach-copy h2 em,.contact h2 em{color:#8e6c4b}
+.about-stamp{border-color:#d0c7bd;color:#8e6c4b}
+.about-text p{color:#71665e}
+.about-text .large-copy{color:#493d34}
+.large-copy strong{color:#8e6c4b}
+.underlined-link{color:#805f40;border-color:#92704f}
+.services{background:#493328;color:#f7f4ef}
+.services-heading>p{color:#e0d7ce}
+.service-grid{border-color:#ffffff30}
+.service-card{background:linear-gradient(145deg,#ffffff0c,transparent);border-color:#ffffff30}
+.service-card:hover{background:#ffffff17}
+.service-top,.service-card>a{color:#d2b18d}
+.service-top span{color:#d7c9ba}
+.service-card p{color:#e0d8d1}
+.approach{background:#fff;color:#49372b}
+.approach-visual{background:radial-gradient(circle,#eee8df 0,#fff 65%)}
+.big-orbit{border-color:#c5ad92}
+.big-orbit:before,.big-orbit:after{border-color:#b18b65}
+.approach-core{background:linear-gradient(145deg,#684a36,#3d2b21);color:#f0dfcb}
+.orbit-label{background:#fff;border-color:#d6c8b8;color:#806044}
+.approach-copy>p,.contact-info>p{color:#756960}
+.approach-copy li{color:#5f5148}
+.approach-copy li svg{color:#92704f}
+.button-outline{border-color:#92704f;color:#795b40}
+.button-outline:hover{background:#795b40;color:#fff}
+.cta-band{background:#493328;color:#fff}
+.cta-band h2{color:#fff}
+.cta-band h2 em{color:#dfc6a8}
+.cta-glow{background:#d7b56d18}
+.contact{background:#e9e6e1;color:#49372b}
+.contact-info>p{color:#71665e}
+.contact-line{border-color:#cfc6bd;color:#49372b}
+.contact-line>span:first-child{border-color:#b69b7c;color:#806044}
+.contact-line small{color:#82766c}
+.contact-line>svg{color:#92704f}
+.contact-form{background:#fff;color:#49372b;box-shadow:0 25px 60px #47362920}
+.form-heading{color:#805f40}
+.contact-form label{color:#5e5148}
+.contact-form input,.contact-form textarea,.contact-form select{border-color:#ddd6cf;background:#faf9f7;color:#49372b}
+.contact-form input:focus,.contact-form textarea:focus,.contact-form select:focus{border-color:#92704f}
+.form-note{color:#82776e}
+.footer{background:#34241d;color:#f6f1eb}
+.footer>p{color:#d1c5ba}
+.footer-bottom{border-color:#ffffff25;color:#c9bdb2}
+.footer-bottom a{color:#d2b18d}
+.floating-whatsapp{background:#7c654e}
+.button-gold{background:#92704f;color:#fff}
+.button-gold:hover{background:#a18160;color:#fff}
+.brand-mark{border-color:#b08d6b;color:#92704f}
+.brand strong span{color:#92704f}
+@media(max-width:700px){.nav{background:#fff;color:#49372b;border-color:#e6e0da}.nav>a{border-color:#e6e0da}.menu-toggle{color:#49372b}}
+/* Martin's photographs, placed inside existing visual areas */
+.hero-art:before{
+ content:"";position:absolute;z-index:3;width:190px;height:285px;left:50%;top:50%;
+ transform:translate(-50%,-50%) rotate(2deg);border:8px solid #fff;
+ border-bottom-width:24px;border-radius:3px;
+ background-image:url("data:image/jpeg;base64,IMAGE2");
+ background-size:cover;background-position:center 24%;
+ box-shadow:0 22px 55px #38291f55;
+}
+.about-layout>div:first-child:after{
+ content:"";display:block;width:175px;height:205px;margin:24px 0 0 3px;
+ border:7px solid #fff;border-bottom-width:18px;border-radius:2px;
+ background-image:url("data:image/jpeg;base64,IMAGE1");
+ background-size:cover;background-position:center 38%;
+ box-shadow:0 14px 35px #47362925;transform:rotate(-2deg)
+}
+@media(max-width:700px){
+ .hero-art:before{width:150px;height:230px}
+ .about-layout>div:first-child:after{width:145px;height:180px}
+}
